@@ -1,0 +1,9 @@
+{
+  "name": "docker-name-generator",
+  "version": "0.0.5",
+  "main": "generator.js",
+  "author": "Nikolas Laus",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {}
+}
