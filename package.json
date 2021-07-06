@@ -5,5 +5,6 @@
   "author": "Nikolas Laus",
   "license": "MIT",
   "type": "module",
-  "dependencies": {}
+  "dependencies": {},
+  "repository": "github:blinchk/docker-name-generator"
 }
