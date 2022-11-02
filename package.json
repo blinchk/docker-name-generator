@@ -8,8 +8,8 @@
   "type": "module",
   "repository": "github:blinchk/docker-name-generator",
   "bin": {
-    "@scamden/docker-name-generator": "./dist/cli",
-    "generate-docker-name": "./dist/cli"
+    "@scamden/docker-name-generator": "./dist/cli.js",
+    "generate-docker-name": "./dist/cli.js"
   },
   "dependencies": {},
   "devDependencies": {
