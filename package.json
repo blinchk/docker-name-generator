@@ -6,6 +6,9 @@
   "author": "Nikolas Laus",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "preversion": "tsc"
+  },
   "repository": "github:blinchk/docker-name-generator",
   "bin": {
     "@scamden/docker-name-generator": "./dist/cli.js",
