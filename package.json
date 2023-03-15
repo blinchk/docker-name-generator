@@ -1,9 +1,22 @@
 {
-  "name": "docker-name-generator",
-  "version": "1.0.0",
-  "main": "generator.js",
+  "name": "@scamden/docker-name-generator",
+  "version": "1.1.1",
+  "main": "dist/generator.js",
+  "types": "dist/generator.d.ts",
   "author": "Nikolas Laus",
   "license": "MIT",
   "type": "module",
-  "repository": "github:blinchk/docker-name-generator"
+  "scripts": {
+    "preversion": "tsc"
+  },
+  "repository": "github:blinchk/docker-name-generator",
+  "bin": {
+    "@scamden/docker-name-generator": "./dist/cli.js",
+    "generate-docker-name": "./dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
 }
